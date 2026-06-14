@@ -2,10 +2,6 @@
 
 A 360-degree panoramic image viewer built with Processing, plus a web-based remote control panel that communicates over MQTT. The viewer places you inside a textured cube so you can look around a panoramic scene, while the web UI sends commands to start/stop a motor and run a calibration sequence.
 
-![Projector casting a 360° panorama onto room walls](docs/projector-panorama-room.svg)
-
-*A 360° panoramic image is projected onto the four walls of a room. The viewer stands at the center and looks around — the same immersive effect created by the Processing sketch's textured cube.*
-
 ## Features
 
 - Immersive panorama viewing inside a 3D cube (OPENGL renderer)
@@ -123,8 +119,6 @@ panorama/
 ├── app.js          # MQTT publisher for the web UI
 ├── data/           # Panoramic JPEG assets
 │   └── Panorama3.JPG
-├── docs/           # Documentation assets
-│   └── projector-panorama-room.svg
 ├── LICENSE         # GNU GPL v3
 └── README.md
 ```
